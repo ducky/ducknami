@@ -2,7 +2,7 @@
 
 ## A Half-Arse Konami/Custom Key Pattern Checker
 
-Currently only supports events (`window.keyup`, `input.change`, etc), but could easily be extended to use whatever.
+This was mostly a proof-of-concept "can I make it" sort of thing, but feel free to do with it what you wish. Currently only supports events (`window.keyup`, `input.change`, etc), but could easily be extended to use whatever.
 
 ### Base Usage
 
