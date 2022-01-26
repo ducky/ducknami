@@ -8,7 +8,7 @@ class Ducknami {
     };
 
     this.options = { ...this.defaults, ...options };
-    this.onReset = typeof this.options.onReset === 'function' ? this.options.onReset : this._onDefaultReset;
+    this.onReset = typeof this.options.onReset === 'function' ? () => { this._clear(); this.options.onReset(); } : this._onDefaultReset;
     this.onSuccess = typeof this.options.onSuccess === 'function' ? this.options.onSuccess : this._onDefaultSuccess;
   }
 
