@@ -1,0 +1,15 @@
+{
+  "name": "ducknami",
+  "version": "1.0.0",
+  "description": "Half-Arse Konami/Misc Code Helper",
+  "main": "build/ducknami.js",
+  "scripts": {
+    "build": "parcel build index.js -d build --out-file ducknami.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Tieman <hello@christieman.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
